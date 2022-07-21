@@ -1,5 +1,7 @@
 # FinAPI- Financeira
 
+> Aplicação back-end para simular finanças de um usuário
+
 ## Requisitos
 * [:heavy_check_mark:] Deve ser possível criar umma conta
 * [] Deve ser possível buscar o extrato bancário do cliente
