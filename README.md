@@ -1,6 +1,6 @@
 # FinAPI- Financeira
 
-> Aplicação back-end para simular finanças de um usuário
+> API para simular finanças de um usuário
 
 ## Requisitos
 * [:heavy_check_mark:] Deve ser possível criar umma conta
