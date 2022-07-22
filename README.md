@@ -11,7 +11,6 @@
 * [:heavy_check_mark:] Deve ser possível atualizar dados da conta do cliente
 * [:heavy_check_mark:] Deve ser possível obter dados da conta do cliente
 * [:heavy_check_mark:] Deve ser possível deletar uma conta
-* [] Deve ser possível retornar o saldo de uma conta
 
 ## Regras de negócio
 * [:heavy_check_mark:] Não deve ser possível cadastrar uma conta com CPF já existente
