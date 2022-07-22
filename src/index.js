@@ -8,6 +8,19 @@ app.use(express.json());
 
 var customers = [];
 
+// Middleware
+function verifyExistsAccountCPF(req, res, next) {
+    const { cpf } = req.headers;
+
+    const customer = customers.find(customer => customer.cpf === cpf);
+
+    if(!customer) {
+        return res.status(400).json({ error: "Customer not found!" });
+    }
+
+    return next();
+}
+
 /**
  * cpf - string
  * name - string
@@ -35,13 +48,6 @@ app.post("/account", (req, res) => {
 });
 
 app.get("/statement/", (req, res) => {
-    const { cpf } = req.headers;
-
-    const customer = customers.find(customer => customer.cpf === cpf);
-
-    if(!customer) {
-        return res.status(400).json({ error: "Customer not found!" });
-    }
 
     return res.json(customer.statement);
 
