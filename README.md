@@ -10,7 +10,7 @@
 * [:heavy_check_mark:] Deve ser possível buscar o extrato bancário do cliente por data
 * [:heavy_check_mark:] Deve ser possível atualizar dados da conta do cliente
 * [:heavy_check_mark:] Deve ser possível obter dados da conta do cliente
-* [] Deve ser possível deletar uma conta
+* [:heavy_check_mark:] Deve ser possível deletar uma conta
 
 ## Regras de negócio
 * [:heavy_check_mark:] Não deve ser possível cadastrar uma conta com CPF já existente
@@ -18,4 +18,4 @@
 * [:heavy_check_mark:] Não deve ser possível fazer depósito em uma conta não existente
 * [:heavy_check_mark:] Não deve ser possível fazer saque em uma conta não existente
 * [:heavy_check_mark:] Não deve ser possível fazer saque quando o saldo for insuficiente
-* [] Não deve ser possível excluir uma conta não existente
+* [:heavy_check_mark:] Não deve ser possível excluir uma conta não existente
