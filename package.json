@@ -7,10 +7,13 @@
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "chart": "^0.1.2",
     "express": "^4.18.1",
+    "typescript": "^4.7.4",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/typescript": "^2.0.0",
     "nodemon": "^2.0.19"
   }
 }
